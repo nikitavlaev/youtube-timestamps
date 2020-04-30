@@ -3,8 +3,8 @@ Chrome plugin for video timestamps
 ## Purpose
 Often when watching a video lecture or an interview, there is a need for quick movement between its logical parts. For this, there is already a popular solution in the form of a set of hyperlinks with headings - “timestamps”, but at the moment there is no automated way to generate them. A browser plug-in is offered as the final product, which adds the desired functionality to the youtube.com website.
 ## MVP
-Client side: basic plugin, that handles user interaction and data interchange
-Server side: simple model, predicting times and descriptions of timestamps, based on video subtitles
+Client side: basic plugin, that handles user interaction and data interchange  
+Server side: simple model, predicting times and descriptions of timestamps, based on video subtitles  
 Proposed pipeline:
   1. Retrieve video id from user side
   1. Get subtitles of that video
