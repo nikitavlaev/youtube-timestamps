@@ -11,26 +11,7 @@ Proposed pipeline:
   1. Mark subtitles, which are likely to be timestamps
   1. Generate descriptions for the results of the previous step
   1. Show timestamps to user
-## Plan
-1. Create dataset 
-   1. Create a table of playlists for model training
-   1. Make a script that constructs a dataframe using a format, suitable for training
-1. Train a model
-   1. Magic!
-1. Create a server app, that runs model
-1. Build that basic plugin
-1. Great! You have created one another app, that no one will ever use
 ## Tech stack
 Server side: Python, Flask, Sklearn (and many different utility libs)
-## Progress
-1. Research
-   1. Necessary Youtube API learned
-   1. Few words about subtitles->timestamps part 
-   1. Something about BERT
-   1. Booked flight to Eastern islands to learn dark woodoo magic
-1. Dataset
-   1. Playlist table is ready
-   1. Dataframe gathering script is ready
-1. Model training
-   1. Super intelligent words
 ## WIP
+Check branches to see current progress
